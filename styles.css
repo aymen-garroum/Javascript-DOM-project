@@ -1,0 +1,63 @@
+header {
+display: flex;
+align-items:center;
+justify-content:flex-end;
+margin-bottom: 3%;
+}
+
+body {
+margin-left: 10%;
+margin-right: 10%;
+}
+#img_panier {
+padding-right: 5px;
+}
+
+#val_panier {
+width: 10%;
+background-color: bisque;
+border-radius: 5px;
+border : 1px solid;
+}
+
+#section_articles {
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+margin-left: 30%;
+margin-right: 30%;
+}
+
+.article {
+display:flex;
+flex-direction: column;
+border-radius: 5px;    
+border: 1px solid;
+margin-bottom: 2%;
+}
+
+#tomate, #patate {
+margin-left: 25%;
+}
+
+.ligne_quantite {
+display:flex;
+align-items: center;
+margin-bottom: 4%;
+}
+
+.bouton_minus {
+margin-right: 3%;
+}
+
+.bouton_plus:hover, .bouton_minus:hover {
+background-color: chartreuse;
+}
+
+#bm_supp_tomate:hover, #bm_supp_patate:hover {
+background-color: chartreuse;    
+}
+
+.fill_heart {
+fill:red;
+}
